@@ -1,4 +1,4 @@
-function insertionSor(arr) {
+function insertionSort(arr) {
   for (let i = 1; i < arr.length; i++) {
     for (let k = i; k > 0; k--) {
       if (arr[k] < arr[k - 1]) {
@@ -12,6 +12,6 @@ function insertionSor(arr) {
     }
   }
 }
-const arr2 = [8, 20, -2, -8, 4, -6];
-insertionSor(arr2);
+const arr2 = [12, 1, 2, 3, 43, 5, 6, 7, 8, 89, 34, 3, 45, 6];
+insertionSort(arr2);
 console.log(arr2);
